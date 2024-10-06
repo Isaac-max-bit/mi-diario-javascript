@@ -1,0 +1,38 @@
+String
+Los strings (cadenas de texto) en JavaScript son uno de los tipos de datos primitivos y se utilizan para representar y manipular texto.
+
+Creación de String
+En JavaScript, puedes crear un string utilizando comillas simples ('), comillas dobles ("), o backticks (```).
+
+let saludo1 = 'Hola, mundo!'; let saludo2 = "Hola, mundo!"; let saludo3 = Hola, mundo!;
+
+Concatenacion de String
+Puedes combinar strings utilizando el operador + o +=, o utilizando plantillas literales (template literals) con backticks.
+
+let parte1 = 'Hola'; let parte2 = 'mundo';
+
+let mensaje = parte1 + ', ' + parte2 + '!'; console.log(mensaje); // Salida: 'Hola, mundo!'
+
+let mensaje2 = ${parte1}, ${parte2}!; console.log(mensaje2); // Salida: 'Hola, mundo!'
+
+Tambien podemos concatenar string haciendo uso de las funciones join y concat
+
+const primeraParte = 'Hola, mi nombre es '; const segundaParte = 'Christan'; const presentacion2 = [primeraParte, segundaParte].join(''); console.log(presentacion2); // salida: Hola, mi nombre es Juan
+
+// Concatenacion con concat const hobbie1 = 'Leer'; const hobbie2 = 'Cantar'; const hobbie3 = 'Bailar'; const hobbies = hobbie1.concat(', ', hobbie2, ', ', hobbie3); console.log(hobbies); // salida: Leer, Cantar, Bailar
+
+Caracteres de escape
+Para incluir caracteres especiales en un string, se usan secuencias de escape
+
+// Escape alternativo const escapeAlternativo = "It's my life"; console.log(escapeAlternativo); // salida: It's my life
+
+// Barra invertida const escapeBarraInvertida = 'It\\'s my life'; console.log(escapeBarraInvertida); // salida: It's my life
+
+// Template Literals const escapeTemplateLiterals = It's my life; console.log(escapeTemplateLiterals); // salida: It's my life
+
+Salto de lina en strings
+Para hacer salto de linea de nuestro string podemos hacer uso de la barra invertida acompañado de la n (\\n) para indicar donde queremos el salto de linea, si vamos a utilizar string literals con uso de los backticks ()` solo debemos poner explicitamente donde queremos el salto de linea
+
+const poema = 'La rosas son rojas,\\n' + 'el cielo es azul,\\n' + 'el azucar es dulce,\\n' + 'y tambien tu.'; console.log(poema); // salida: La rosas son rojas, el cielo es azul, el azucar es dulce, y tambien tu.
+
+const poema2 = La rosas son rojas, el cielo es azul, el azucar es dulce, y tambien tu.; console.log(poema2); /
