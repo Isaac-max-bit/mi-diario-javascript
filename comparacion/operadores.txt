@@ -1,0 +1,27 @@
+operadores 
+
+* un operador es un simbolo especial que especifica que debe 
+efectuar una determinada operación.
+
+Estas operaciones pueden ser: 
+
+* Asignación
+* Aritméticas 
+* Condicionales (o Lógicos)
+* Relacionales (o de comparación)
+* Entre otras.
+
+Operadores de comparación o Lógicos
+
+igualdad == 
+Desigualdad (distinto) !=
+Igualdad Estricta !==
+Mayor y Menor ><
+Mayor o igual y menor o igual >= <=
+
+Operadores condicionales o Lógicos
+
+And &&: se utiliza se deben cumplir ambas condiciones.
+OR ||: se utiliza cuando se debe cumplir una condición u otra.
+NOT !: Se utiliza para negar el valor de una condición (si es true pasa a ser false y viceversa)
+
