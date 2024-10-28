@@ -12,4 +12,5 @@ if (isNaN(numeroJugador) || numeroJugador < 1 || numeroJugador > 10) {
 } else {
     console.log("El número es muy alto, intenta de nuevo."); 
 }  
+
   
