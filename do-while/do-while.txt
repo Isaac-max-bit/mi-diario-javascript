@@ -1,0 +1,36 @@
+El bucle do...while en JavaScript es similar al bucle while,
+pero con una diferencia clave: garantiza que el bloque de código 
+se ejecute al menos una vez antes de evaluar la condición. La sintaxis básica es:
+
+do {
+    // Código a ejecutar
+} while (condición);
+
+Ejemplo:
+Aquí tienes un ejemplo de cómo funciona:
+
+let contador = 0;
+
+do {
+    console.log(contador); // Imprime el valor del contador
+    contador++; // Incrementa el contador
+} while (contador < 5);
+
+Salida:
+Este código imprimirá:
+
+0
+1
+2
+3
+4
+
+Detalles a considerar:
+1. Ejecución garantizada: La diferencia principal con while
+ es que el bloque de código en do...while se ejecuta al menos una vez, 
+ incluso si la condición es falsa desde el principio.
+2. Condición: Después de la ejecución del bloque de código,
+se evalúa la condición. Si es verdadera, el bucle se repite; si es falsa, 
+se sale del bucle.
+3. Uso: Es útil cuando necesitas asegurarte de que una operación se ejecute
+al menos una vez, como mostrar un menú o solicitar entrada del usuario.

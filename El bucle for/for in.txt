@@ -1,0 +1,9 @@
+En JavaScript, la instrucción for...in es un bucle que recorre 
+las propiedades de un objeto y ejecuta un bloque de código para cada una de ellas.
+
+El orden de iteración de for...in depende de la implementación, 
+por lo que es posible que no visite los elementos de un arreglo en un orden coherente.
+
+En JavaScript, los bucles se utilizan para realizar tareas repetitivas basadas en una condición. 
+Las condiciones suelen devolver true (verdadero) o false (falso) al evaluarse. 
+El bucle continuará ejecutándose hasta que la condición devuelva false.

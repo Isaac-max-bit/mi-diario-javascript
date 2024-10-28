@@ -1,0 +1,34 @@
+Qué son los operadores de incremento y decremento
+
+Te habrás fijado que el profesor utiliza i++. 
+Pero, ¿qué es eso? El operador de incremento (++)
+ y decremento (--) consiste en aumentar o disminuir una 
+ sola unidad a una unidad, respectivamente, de forma más corta.
+
+Estos operadores se pueden utilizar antes y después de una variable.
+
+Loop For
+El bucle for en JavaScript es una estructura de control que se utiliza para ejecutar un bloque de código repetidamente, generalmente con un contador que se incrementa o decrementa en cada iteración. Es uno de los bucles más comunes y versátiles en la programación.
+
+Sintaxis del Bucle for
+La sintaxis básica del bucle for es la siguiente:
+
+for (inicialización; condición; incremento) {   // Código a ejecutar en cada iteración }
+
+inicialización: Se ejecuta una sola vez al inicio del bucle y se utiliza para inicializar una o más variables.
+condición: Se evalúa antes de cada iteración. Si la condición es true, el bloque de código dentro del bucle se ejecuta. Si es false, el bucle termina.
+actualización: Se ejecuta al final de cada iteración. Se utiliza para actualizar la(s) variable(s) de control del bucle.
+Ejemplo Básico
+for (let i = 0; i < 5; i++) { console.log("El valor de i es " + i); }
+
+En este ejemplo:
+
+La inicialización establece i en 0.
+La condición comprueba que i sea menor que 5.
+La actualización incrementa i en 1 después de cada iteración.
+Iterar sobre un Array
+El bucle for se utiliza frecuentemente para iterar sobre los elementos de un array:
+
+let colores = ["rojo", "verde", "azul", "amarillo"];
+
+for (let i = 0; i < colores.length; i++) {   console.log(colores[i]); }

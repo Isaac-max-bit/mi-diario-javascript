@@ -1,0 +1,9 @@
+El bucle while en JavaScript es una estructura de control que te permite
+ ejecutar un bloque de código repetidamente mientras una condición
+ especificada sea verdadera. 
+
+for loop: Usado cuando conoces el número de iteraciones.
+while loop: Usado cuando quieres repetir mientras una condición sea verdadera.
+do...while loop: Similar al while loop, pero se ejecuta al menos una vez.
+for...in loop: Usado para iterar sobre propiedades enumerables de un objeto.
+for...of loop: Usado para iterar sobre elementos de objetos iterables.
