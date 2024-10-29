@@ -1,0 +1,24 @@
+Una función es un conjunto de instrucciones tareas que realiza una tarea o asigna un valor, 
+también se puede definir como un conjunto de instrucciones que realiza una tarea o calcula 
+un valor.
+
+Una definición de función (también denominada declaración de función o expresión de función) 
+consta de la palabra clave function, seguida de:
+
+El nombre de la función.
+Una lista de parámetros de la función, entre paréntesis y separados por comas.
+Las declaraciones de JavaScript que definen la función, encerradas entre llaves, { ... }.
+
+Una función en JavaScript es un conjunto de instrucciones o bloque de 
+código que realiza una tarea o calcula un valor, y que puede reutilizarse. 
+Las funciones son un pilar fundamental de JavaScript y permiten que el código 
+se llame muchas veces sin repetirse. 
+Para declarar una función en JavaScript se utiliza la palabra reservada function, seguida de:
+El nombre de la función
+Una lista de argumentos para la función, encerrados entre paréntesis y separados por comas
+Las sentencias JavaScript que definen la función, encerradas por llaves 
+Las funciones pueden tener argumentos, que son valores que se reciben de otra 
+función o enunciado. Para devolver un valor específico, una función debe tener 
+una sentencia return, que especifique el valor a devolver. 
+Algunos ejemplos de funciones integradas en JavaScript son alert(message), 
+prompt(message, default) y confirm(question). 
