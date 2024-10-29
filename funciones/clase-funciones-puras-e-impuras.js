@@ -1,0 +1,1 @@
+alert("Hola Isaac, soy de funciones puras e impuras");
