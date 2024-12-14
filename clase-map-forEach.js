@@ -26,3 +26,15 @@ const temperaturesInCelsius = temperaturesInFahrenheit.map(fahrenheit => (5/9) *
 
 console.log('Temperatures In Fahrenheit: ', temperaturesInFahrenheit)
 console.log('Temperatures In Celsius: ', temperaturesInCelsius)
+
+// Exercise: SUM of elements in an Array 
+
+const newNumbers = [1, 2, 3, 4, 5]
+
+let sum = 0
+
+newNumbers.forEach(number => {
+    sum = sum += number
+})
+
+console.log('' + newNumbers)
