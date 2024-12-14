@@ -37,4 +37,5 @@ newNumbers.forEach(number => {
     sum = sum += number
 })
 
-console.log('' + newNumbers)
+console.log('Array of Numbers: ', newNumbers)
+console.log('Sum of Numbers: ', sum)
